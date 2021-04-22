@@ -1,3 +1,7 @@
+baseurl:""
+url:"https://jung0683.github.io/"
+
+
 *{cursor: url(img/cursor/dot.png) 0 0, auto;
   a, a:link { cursor: url('img/cursor/cursor2.cur'), auto;}
  a:hover, a:focus { cursor: url('img/cursor/cursor2.cur'), auto;}
