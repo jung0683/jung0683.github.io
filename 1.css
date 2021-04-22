@@ -1,0 +1,120 @@
+*{cursor: url(img/cursor/dot.png) 0 0, auto;
+  a, a:link { cursor: url('img/cursor/cursor2.cur'), auto;}
+ a:hover, a:focus { cursor: url('img/cursor/cursor2.cur'), auto;}
+ a:active {cursor: url('img/cursor/cursor2.cur'), auto;}
+}
+
+*{margin:0; padding:0; 
+box-sizing:border-box;}
+ul,li{list-style:none;}
+	a{text-decoration: none;
+	color:inherit;}
+	
+h1,h3,h4,h5,h6,p{color: #333;}
+h2{color:white}
+h1:hover{color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+p{font-family: "Noto Sans KR", sans-serif; font-size:12pt;}
+.title{margin: 0px;
+font-family: "Sandoll 청류" ;}
+body{font-family:  "Noto Sans KR", sans-serif; font-size:10pt; ;}
+img{max-width: 100%}
+.logo{ margin-top:20px; margin-left:35px;}
+
+clear{clear:both;}
+
+.wrap{width:1530px; height:738px;
+		background:#333;
+		display:flex;
+		}
+	header{flex:1.5; background:white;}
+	.left{flex:6; }	
+	
+	
+	/* 세로네비1 */
+	nav{position:absolute; font-size: 40px; width:180px; top:100px;
+	left:30px; text-align:left; margin:0 auto;}
+	nav>ul>li>a{display:block; color: black; font-weight: bold;
+	padding:24px 0px;}
+	nav>ul>li:hover>a{color:gray;}
+
+.submenu{ margin:0 auto;}
+.submenu>li>a{display:block;
+    color:black;
+    padding:14px 0px;
+    font-size: 15px;
+    
+    }
+.submenu>li>a:hover{background:#f1f1f1; color:cornflowerblue;}
+.one div{display: inline-block;}
+.con1{position: relative; margin:40px;
+			padding:5px; display: inline;}
+.con6{position: absolute; margin:40px; padding:5px;}
+#time div{width:100px;
+			height:30px;
+			background:#B2FA5C;
+			margin:10px;
+			padding:5px;
+			color:#333;
+			text-align:center;
+			font-size:1.2em;}
+	#time:hover div{width:600px;}
+	#time  .ease{width:100px; transition:3s ease;}
+	#time  .ease-in{transition:3s ease-in;}
+	#time  .ease-out{transition:3s ease-out;}
+	#time  .ease-in-out{transition:3s ease-in-out;}
+
+.con2{position: relative; margin: 40px;}
+    .tran{width:200px;
+		height:200px;
+		background-color:coral;
+		transition:3s;
+		margin:10px;
+text-align: center; padding: 37px;}
+	.tran:hover{border-radius:100px;
+		  background:cornflowerblue;
+		  transform:scale(0.5);}
+.con3{position: absolute; margin: 40px; padding:5px;}
+
+.con4{position: absolute; margin: 40px; padding:5px;}
+
+
+.imgBoxDiv{
+    width:300px;
+    height:300px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px 0px #000;
+    margin: 10px;
+}
+.imgDiv{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background: 1ightblue;
+    z-index: 1;
+    -webkit-transition:all .5s ease;
+    transition:all .5s ease;
+    bottom:0px;
+    overflow:hidden;
+    
+}
+
+.imgBoxDiv:hover .imgDiv{bottom:60px;}
+
+.imgDescDiv{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: #333;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0px;
+}
+.con5{position: relative; margin:40px;padding:5px;}
+
+.text1{color:white;Line-height:2;}
+
+.con5 div{display:inline-block;}
+.two div{display:inline-block; }
